@@ -1,5 +1,6 @@
 import Navbar from "../../components/NavBar/Navbar";
 import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import { Outlet, useLocation } from "react-router-dom";
 
 
@@ -19,11 +20,14 @@ return (
   <div>
     {!shouldHideHeader && <Header />}
     {!shouldHideNavbar && <Navbar />}
-
+      
     <main>
       <Outlet />
+      
     </main>
+    {!shouldHideNavbar && <Footer />}
   </div>
+  
   );
         
     

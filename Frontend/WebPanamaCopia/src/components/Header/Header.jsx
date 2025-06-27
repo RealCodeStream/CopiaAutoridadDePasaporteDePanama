@@ -1,4 +1,4 @@
-import Img from '../../assets/image.png'
+import Img from '../../public/assets/image.png'
 
 const Header = ({ 
   imageUrl = Img,

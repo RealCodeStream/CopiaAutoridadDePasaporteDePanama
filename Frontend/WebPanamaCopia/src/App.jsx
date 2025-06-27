@@ -7,14 +7,14 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import Inicio from './Pages/Inicio'
-import ISO from './Pages/ISO'
-import NotiBlog from './Pages/NotiBlog'
-import PreguntasFrecuentes from './Pages/PreguntasFrecuentes'
-import QuienesSomos from './Pages/quienesSomos'
-import Tramites from './Pages/Tramites'
-import Transparencia from './Pages/Transparencia'
-import Layout from './layout/Layout';
+import Inicio from './public/Pages/Inicio'
+import ISO from './public/Pages/ISO'
+import NotiBlog from './public/Pages/NotiBlog'
+import PreguntasFrecuentes from './public/Pages/PreguntasFrecuentes'
+import QuienesSomos from './public/Pages/quienesSomos'
+import Tramites from './public/Pages/Tramites'
+import Transparencia from './public/Pages/Transparencia'
+import Layout from './public/layout/Layout';
 
 function App() {
 

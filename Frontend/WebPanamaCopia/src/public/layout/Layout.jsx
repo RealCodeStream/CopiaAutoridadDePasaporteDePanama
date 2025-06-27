@@ -1,13 +1,32 @@
 import Navbar from "../../components/NavBar/Navbar";
 import Header from "../../components/Header/Header";
+import { Outlet, useLocation } from "react-router-dom";
+
+
 
 const Layout = () => {
-    return(
-        <div>
-            <Header/>
-            <Navbar/>
-        </div>
-    );
+
+const location = useLocation();
+
+ 
+  const hideNavbarRoutes = ["/certificacionform"];
+const hideHeaderRoutes = []; 
+
+const shouldHideNavbar = hideNavbarRoutes.includes(location.pathname);
+const shouldHideHeader = hideHeaderRoutes.includes(location.pathname);
+
+return (
+  <div>
+    {!shouldHideHeader && <Header />}
+    {!shouldHideNavbar && <Navbar />}
+
+    <main>
+      <Outlet />
+    </main>
+  </div>
+  );
+        
+    
 }
 
 export default Layout;

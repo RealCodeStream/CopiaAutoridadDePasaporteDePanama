@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node --env-file .env --watch index.js",
-     "dev": "nodemon Service/index.js"
+    "dev": "nodemon Service/index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,12 +13,12 @@
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.6.0",
     "express": "^5.1.0",
     "express-validator": "^7.2.1",
     "mongoose": "^8.16.0",
     "nodemailer": "^7.0.3",
     "pdfkit": "^0.17.1",
-    "dotenv": "^16.6.0",
     "stripe": "^18.2.1"
   },
   "devDependencies": {

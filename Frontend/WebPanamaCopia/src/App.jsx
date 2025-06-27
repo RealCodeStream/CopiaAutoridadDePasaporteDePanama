@@ -13,9 +13,10 @@ import NotiBlog from './public/Pages/NotiBlog'
 import PreguntasFrecuentes from './public/Pages/PreguntasFrecuentes'
 import QuienesSomos from './public/Pages/quienesSomos'
 import Tramites from './public/Pages/Tramites'
+import CertificacionForm from './public/Pages/CertificacionForm'
 import Transparencia from './public/Pages/Transparencia'
 import Layout from './public/layout/Layout';
-
+import Success from './public/Pages/Success';
 function App() {
 
   const router = createBrowserRouter(
@@ -26,10 +27,12 @@ function App() {
               <Route index element={<Inicio />}></Route>
               <Route path="/quienessomos" element={<QuienesSomos />}></Route>
               <Route path="/tramites" element={<Tramites />}></Route>
+              <Route path="/certificacionform" element={<CertificacionForm/>}></Route>
               <Route path="/transparencia" element={<Transparencia />}></Route>
               <Route path="/preguntasfrecuentes" element={<PreguntasFrecuentes/>}></Route>
               <Route path="/notiblog" element={<NotiBlog/>}></Route>
               <Route path="/iso" element={<ISO/>}></Route>
+              <Route path="/success" element={<Success />} />
             </Route>
 
       </>

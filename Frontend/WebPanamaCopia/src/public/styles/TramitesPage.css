@@ -1,0 +1,121 @@
+.tramites-container {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.tramites-section {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+}
+
+.light-bg {
+  background-color: #f0f2f5;
+  padding: 3rem 1rem;
+  border-radius: 12px;
+}
+
+.step-circle {
+  background-color: #002d62;
+  color: white;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.step-title {
+  color: #002d62;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.step-subtitle {
+  color: #444;
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.requirements-columns {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.requirement-column {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  min-width: 300px;
+}
+
+.requirement-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.requirement-item:hover {
+  background-color: #e8f0ff;
+}
+
+.office-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.office-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  max-width: 400px;
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+}
+
+.payment-icons img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.primary-btn, .secondary-btn {
+  margin-top: 1rem;
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: #002d62;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.secondary-btn {
+  background-color: #0074d9;
+  color: white;
+}
